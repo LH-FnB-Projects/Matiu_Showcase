@@ -1,5 +1,9 @@
 ol.proj.proj4.register(proj4);
+<<<<<<< HEAD
 //ol.proj.get("EPSG:3857").setExtent([19465464.460703, -5050697.842155, 19466861.828846, -5049803.919477]);
+=======
+//ol.proj.get("EPSG:3857").setExtent([19465830.783372, -5050481.066627, 19466218.679495, -5050257.585957]);
+>>>>>>> c20bfeb040276b5cc61d7a3c8426bdcc3fc76bc4
 var wms_layers = [];
 
 var lyr_MatiuGEsatellite_0 = new ol.layer.Image({
@@ -105,10 +109,17 @@ lyr_Future_planting_site_3.set('fieldImages', {'name': 'TextEdit', 'cmt': 'TextE
 lyr_plantsite2025_4.set('fieldImages', {'name': 'TextEdit', 'cmt': 'TextEdit', 'desc': 'TextEdit', 'src': 'TextEdit', 'link1_href': 'TextEdit', 'link1_text': 'TextEdit', 'link1_type': 'TextEdit', 'link2_href': 'TextEdit', 'link2_text': 'TextEdit', 'link2_type': 'TextEdit', 'number': 'Range', 'type': 'TextEdit', });
 lyr_Showcase_5.set('fieldImages', {'fid': 'TextEdit', 'Date': 'DateTime', 'Plants': 'TextEdit', 'Notes': 'TextEdit', 'Photo': 'ExternalResource', 'Photo-2': 'ExternalResource', 'Date 2': 'TextEdit', 'Photo 1a': 'ExternalResource', 'Plants 2': 'TextEdit', 'Notes 2': 'TextEdit', 'Photo 2a': 'ExternalResource', 'Point': 'Range', });
 lyr_Matiutrack_1.set('fieldLabels', {'name': 'no label', 'cmt': 'no label', 'desc': 'no label', 'src': 'no label', 'link1_href': 'inline label - always visible', 'link1_text': 'inline label - always visible', 'link1_type': 'inline label - always visible', 'link2_href': 'inline label - always visible', 'link2_text': 'header label - always visible', 'link2_type': 'inline label - visible with data', 'number': 'inline label - always visible', 'type': 'no label', });
+<<<<<<< HEAD
 lyr_Surveyaug2023_2.set('fieldLabels', {'fid': 'hidden field', 'Date': 'hidden field', 'Ground': 'hidden field', 'Environment': 'hidden field', 'Seed source': 'hidden field', 'Suitable plants': 'hidden field', 'Present plants': 'hidden field', 'Notes': 'hidden field', 'Comment': 'hidden field', 'other': 'hidden field', 'Photo': 'inline label - always visible', 'Photo-2': 'inline label - always visible', 'Site': 'no label', });
 lyr_Future_planting_site_3.set('fieldLabels', {'name': 'no label', 'cmt': 'no label', 'desc': 'no label', 'src': 'no label', 'link1_href': 'header label - always visible', 'link1_text': 'inline label - always visible', 'link1_type': 'inline label - always visible', 'link2_href': 'hidden field', 'link2_text': 'no label', 'link2_type': 'hidden field', 'number': 'hidden field', 'type': 'hidden field', });
 lyr_plantsite2025_4.set('fieldLabels', {'name': 'header label - visible with data', 'cmt': 'hidden field', 'desc': 'hidden field', 'src': 'hidden field', 'link1_href': 'hidden field', 'link1_text': 'hidden field', 'link1_type': 'hidden field', 'link2_href': 'hidden field', 'link2_text': 'hidden field', 'link2_type': 'hidden field', 'number': 'hidden field', 'type': 'hidden field', });
 lyr_Showcase_5.set('fieldLabels', {'fid': 'hidden field', 'Date': 'hidden field', 'Plants': 'hidden field', 'Notes': 'hidden field', 'Photo': 'inline label - always visible', 'Photo-2': 'hidden field', 'Date 2': 'hidden field', 'Photo 1a': 'hidden field', 'Plants 2': 'hidden field', 'Notes 2': 'hidden field', 'Photo 2a': 'hidden field', 'Point': 'hidden field', });
+=======
+lyr_Surveyaug2023_2.set('fieldLabels', {'fid': 'no label', 'Date': 'inline label - visible with data', 'Ground': 'inline label - visible with data', 'Environment': 'inline label - visible with data', 'Seed source': 'no label', 'Suitable plants': 'inline label - visible with data', 'Present plants': 'no label', 'Notes': 'inline label - visible with data', 'Comment': 'no label', 'other': 'no label', 'Photo': 'inline label - visible with data', 'Photo-2': 'inline label - visible with data', 'Site': 'no label', });
+lyr_Future_planting_site_3.set('fieldLabels', {'name': 'no label', 'cmt': 'no label', 'desc': 'no label', 'src': 'no label', 'link1_href': 'header label - always visible', 'link1_text': 'inline label - always visible', 'link1_type': 'inline label - always visible', 'link2_href': 'inline label - always visible', 'link2_text': 'inline label - always visible', 'link2_type': 'inline label - always visible', 'number': 'no label', 'type': 'no label', });
+lyr_plantsite2025_4.set('fieldLabels', {'name': 'header label - visible with data', 'cmt': 'no label', 'desc': 'no label', 'src': 'no label', 'link1_href': 'no label', 'link1_text': 'no label', 'link1_type': 'no label', 'link2_href': 'no label', 'link2_text': 'no label', 'link2_type': 'no label', 'number': 'no label', 'type': 'no label', });
+lyr_Showcase_5.set('fieldLabels', {'fid': 'no label', 'Date': 'header label - visible with data', 'Plants': 'header label - visible with data', 'Notes': 'no label', 'Photo': 'inline label - visible with data', 'Photo-2': 'no label', 'Date 2': 'no label', 'Photo 1a': 'no label', 'Plants 2': 'inline label - always visible', 'Notes 2': 'inline label - visible with data', 'Photo 2a': 'no label', 'Point': 'no label', });
+>>>>>>> c20bfeb040276b5cc61d7a3c8426bdcc3fc76bc4
 lyr_Showcase_5.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
 });

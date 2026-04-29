@@ -12,37 +12,34 @@
         <link rel="stylesheet" href="./resources/ol-layerswitcher.css">
         <link rel="stylesheet" href="./resources/qgis2web.css">
         <style>
-
-<<<<<<< HEAD
-          #map {
-=======
-         #map {
->>>>>>> c20bfeb040276b5cc61d7a3c8426bdcc3fc76bc4
-            width: 958px;
-            height: 748px;
+        html, body {
+            background-color: #ffffff;
         }
+        .ol-control > * {
+            background-color: #f8f8f8!important;
+            color: #444444!important;
+            border-radius: 0px;
+        }
+        .ol-attribution a, .gcd-gl-input::placeholder, .search-layer-input-search::placeholder {
+            color: #444444!important;
+        }
+        .search-layer-input-search {
+            background-color: #f8f8f8!important;
+        }
+        .ol-control > *:focus, .ol-control >*:hover {
+            background-color: rgba(248, 248, 248, 0.7)!important;
+        } 
+        .ol-control {
+            background-color: rgba(255,255,255,.4) !important;
+            padding: 2px !important;
+        } 
+        </style>
 
-      .header-image {
-        display: block;
-        margin: 0;
-        padding: 0;
-        max-width: 100%;  /* scales down on smaller screens */
-        height: auto;     /* preserves aspect ratio */
-      }
-
-    </style>
-
-    <title>Matiu Project</title>
-  </head>
-
- <body>
-    <!-- Top header image -->
-    <img src="Matiu-header.jpg"  class="header-image">
-
-    <!-- The map container -->
-    <div id="map"></div>
-
-
+        <style>
+        #map {
+            width: 1125px;
+            height: 649px;
+        }
         </style>
         <title>Matiu-Project-Showcase_web</title>
     </head>
